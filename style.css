@@ -1,0 +1,161 @@
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: url("fondos/f6.jpg");
+    background-size: 100%;
+    background-color: black;
+    font-family: verdana; 
+    }
+    h1 {
+    position: relative;
+    left: 470px;
+    text-align: center;
+    text-transform: uppercase; 
+    color: red; 
+    width: 50%;
+    height:100px;
+    background-color: white;
+    background-position-y: center;
+    } 
+    nav {
+      min-width: 19rem;
+      border-radius: 10px;
+      border-color: grey;
+      border-style: solid;
+      border-radius: 10px;
+      width: 50%;
+      height: 50%;
+      background-color: grey;
+      margin-top: 2% ;
+      margin-left: 23%;
+      position: relative;
+      background-image: url("fondos/f7.jpg");
+      background-size: 100%;
+      justify-content: center;
+      }
+    footer
+    {
+        margin-top:5%;
+        width:100%;
+        height:100px;
+        background-color:black;
+        color: greenyellow;
+        text-align: center;
+        justify-content: center;
+        text-transform: uppercase;
+       
+    }
+    aside {
+        border-radius: 10px;
+        border-color: grey;
+        border-style: solid;
+        margin-top: 50px;
+        left: 1500px;
+        position: relative;
+        width: 15%;
+        height: 500px;
+        background-image: url("fondos/f7.jpg");
+        background-size: 100%;
+        color: red;
+        text-size-adjust: 250px;
+        text-align: left;
+    } 
+    article {
+        margin-left: 19%;
+        border-radius: 10px;
+        border-color: grey;
+        border-style: solid;
+        border-width: 7px;
+        margin-top: 2%;
+        width:59%;
+        min-width: 22rem;
+        height:fit-content;
+        background-image: url("fondos/f7.jpg");
+        background-size: 100%;
+        color: red;
+        text-transform: uppercase;
+        text-align: center;
+    } 
+    header {
+        min-width: 22rem;
+        justify-content: center;
+        border-radius: 10px;
+        border-color: grey;
+        border-style: solid;
+        border-radius: 10px;
+        width: 58%;
+        max-height: 13rem;
+        height: 100%;
+        background-color: grey;
+        margin-left: 20%;
+        margin-bottom: 1%;
+        position: relative;
+        background-image: url("fondos/f7.jpg");
+        background-size: 100%;
+        }
+    img {
+      width: 40%;
+      height: auto;
+    margin-left: 30%;
+    margin-top: -10%;
+    }
+    p {
+      margin-top: 5%;
+    }
+
+    
+    .items {
+        margin-left: 5rem;
+        max-width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: grid;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-auto-rows: minmax(170px, auto);
+      
+    }
+      .item1 {
+        position: relative;
+        left: -28%;
+        margin-top: 12%;
+        width: 100%;
+        height: auto;
+
+      }
+      .item2 {
+        position: relative;
+        left: -12%;
+        margin-top: 12%;
+        width: 55%;
+        height: auto;
+
+      }
+      .nav {
+        justify-content: center;
+        text-align: center;
+        color: red;
+        font-weight: bold;
+
+      }
+      a {
+        text-decoration: none;
+        outline: none;
+        color: red;
+      }
+      .card {
+        background-color: black;
+        color: red;
+        padding: 5%;
+        width: 60%;
+        height: 100%;
+        
+      }
+      @media (min-width: 600px) {
+        .content { min-width: 10%;}
+        .cards { grid-template-columns: repeat(3, 1fr); }
+      }
+      @media (min-width: 900px) {
+        .content { min-width: 10%;}
+        .cards { grid-template-columns: repeat(3, 1fr); }
+      }
